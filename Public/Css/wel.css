@@ -1,0 +1,16 @@
+.container2{
+width: 100%;
+box-sizing: border-box;
+
+}
+h1{
+    padding: 250px 550px;
+    color:red;
+}
+
+body {
+    background-image: url(/img/bgimgreal.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }

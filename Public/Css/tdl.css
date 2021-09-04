@@ -1,0 +1,69 @@
+body{
+    background-image: url(/img/bgimgreal2.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/* logout button padding */
+.logout{
+    padding: 500px 650px;
+    
+}
+/* todo container */
+.todo{
+    width: 300px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    color: seashell;
+    
+    
+}
+/* Todo list add button */
+#add{
+    margin: 2px 0px 0px 50px;
+}
+/* .todo #add{
+    text-align: center;
+} */
+/*h1 tag */
+.todo h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#container #noteList{
+    font-family: sans-serif;
+    word-spacing: normal;
+}
+#newNote{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(12, 196, 36);
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+/* 
+input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 15px 50px;
+        
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 24px;
+        font-size: 15px;
+        
+        
+        
+      } */
+

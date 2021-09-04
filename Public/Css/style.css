@@ -1,0 +1,67 @@
+/* Body  */
+
+  body{
+    background-image: url(/img/bgimgreal.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  /*Containers css*/
+  .container {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0 ,0,0.7);
+    text-align: center;
+    
+  }
+  .container h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(12, 196, 36);
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+  
+  
+  /* Set a style for all buttons */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    border-radius: 24px;
+  }
+  
+  /* Add a hover effect for buttons */
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
